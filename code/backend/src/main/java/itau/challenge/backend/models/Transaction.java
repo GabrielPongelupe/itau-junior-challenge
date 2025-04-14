@@ -8,7 +8,7 @@ import java.time.OffsetDateTime;
 @Data
 @AllArgsConstructor
 @Getter
-public class Transacoes {
+public class Transaction {
     private double valor;
     private OffsetDateTime dataHora;
 }
