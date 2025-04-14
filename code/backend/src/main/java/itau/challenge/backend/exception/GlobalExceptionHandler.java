@@ -1,5 +1,7 @@
 package itau.challenge.backend.exception;
 
+import itau.challenge.backend.exception.costumExceptions.FutureTransactionDateException;
+import itau.challenge.backend.exception.costumExceptions.InvalidTransactionAmountException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;

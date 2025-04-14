@@ -1,7 +1,7 @@
 package itau.challenge.backend.controllers;
 
 import itau.challenge.backend.dto.TransactionRequest;
-import itau.challenge.backend.exception.FutureTransactionDateException;
+import itau.challenge.backend.exception.costumExceptions.FutureTransactionDateException;
 import itau.challenge.backend.services.TransactionService;
 import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;
