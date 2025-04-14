@@ -2,11 +2,15 @@ package itau.challenge.backend.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import java.util.DoubleSummaryStatistics;
 
 
 @Getter
+@NoArgsConstructor
+@Setter
 public class StatisticsResponse {
     private long count;
     private double sum;
